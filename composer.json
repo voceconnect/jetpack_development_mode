@@ -19,7 +19,7 @@
 			"url": "http://packagist.voceconnect.com"
 		}
 	],
-	"type": "library",
+	"type": "wordpress-plugin",
 	"autoload": {
 		"files": ["jetpack-development-mode.php"]
 	}
