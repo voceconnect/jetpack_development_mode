@@ -1,0 +1,26 @@
+{
+	"name": "voceconnect/jetpack-development-mode",
+	"description": "Helper class to turn on development mode for jetpack",
+	"keywords": ["wordpress", "jetpack", "development mode"],
+	"license": "GPLv2+",
+	"authors": [
+		{
+			"name": "Mat Gargano",
+			"email": "mat@voceconnect.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wp-plugins.packagist.voceconnect.com/"
+		},
+		{
+			"type": "composer",
+			"url": "http://packagist.voceconnect.com"
+		}
+	],
+	"type": "library",
+	"autoload": {
+		"files": ["jetpack-development-mode.php"]
+	}
+}
