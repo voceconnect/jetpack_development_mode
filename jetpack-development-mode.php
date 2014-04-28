@@ -9,6 +9,6 @@
  */
 
 add_filter( 'jetpack_development_mode', '__return_true' );
-if ( ! defined( JETPACK_DEV_DEBUG ) ) {
+if ( ! defined( 'JETPACK_DEV_DEBUG' ) ) {
 	define( 'JETPACK_DEV_DEBUG', true );
 }
